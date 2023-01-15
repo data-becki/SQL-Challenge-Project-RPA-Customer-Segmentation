@@ -52,6 +52,7 @@ WHERE campaign IS NOT NULL
 -- Challenge
 -- One of the members of the marketing team had an idea of calculating
 -- how old users were when they signed up.
+-- The top two solutions as far as simple coding and possible right answers. 
 
 SELECT email, birthday, 
   (created_at - birthday) AS age
